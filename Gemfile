@@ -32,6 +32,10 @@ gem "thinking-sphinx", "2.0.12"
 
 gem "mail"
 
+gem 'rails_12factor', group: :production
+
+# gem 'pg' 
+
 group :test, :development do
   gem "rspec-rails", "~> 2.6"
   gem "machinist"
